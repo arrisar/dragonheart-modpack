@@ -1,0 +1,383 @@
+
+[items]
+	#Range: 0 ~ 100
+	thunderbolt_cooldown = 100
+	#Range: 1 ~ 24000
+	bag_of_wind_duration = 400
+	#Whether the Conch can place/remove water
+	conch_enabled = true
+	#Whether the Winged Sandals slowly lose durability
+	winged_sandals_deplete = false
+	#Range: 0 ~ 100
+	healing_rod_cooldown = 35
+	#Whether the Sword of the Hunt deals absolute damage to animals
+	sword_of_hunt_bypasses_armor = true
+	#Range: 0 ~ 100
+	conch_cooldown = 10
+	#Range: 1 ~ 4000
+	swine_wand_durability = 104
+	#Range: 1 ~ 4000
+	unicorn_horn_durability = 44
+	#Range: 1 ~ 4000
+	bag_of_wind_durability = 24
+	#Range: 0 ~ 100
+	swine_wand_cooldown = 50
+	#Winged Sandals speed bonus (1.0 = +100%)
+	#Range: 0.0 ~ 2.0
+	sandals_speed_bonus = 1.5
+	#Range: 1 ~ 4000
+	healing_rod_durability = 384
+	#Range: 1 ~ 4000
+	thunderbolt_durability = 170
+	#Whether throwing a hydra tooth can spawn Sparti
+	dragon_tooth_spawns_sparti = true
+	#Whether using the unicorn horn can cure potion effects
+	unicorn_horn_cures_effects = true
+	#Range: 0 ~ 100
+	bag_of_wind_cooldown = 100
+	#Range: 1 ~ 24000
+	swine_wand_duration = 2450
+	#Whether the helm of darkness hides armor
+	helm_hides_armor = true
+	#Whether the Thunderbolt can only be used during storms
+	thunderbolt_storms_only = false
+	#When true, ambrosia gives effects of Golden Apple instead of Enchanted Golden Apple
+	nerf_ambrosia = false
+
+[effects]
+	enable_daybreak_enchantment = true
+	enable_hunting_enchantment = true
+	enable_overstep_enchantment = true
+	enable_mirror_enchantment = true
+	enable_smashing_enchantment = true
+	#When true, replaces stunning with Slowness I and Weakness I
+	nerf_stunning = false
+	enable_poison_enchantment = true
+	enable_raising_enchantment = true
+	enable_swine_effect = true
+	#Whether some monsters ignore players under the swine effect
+	swine_prevents_target = true
+	#When stunned, players are prevented from jumping
+	stun_prevents_jump = true
+	#When stunned, players are prevented from using items
+	stun_prevents_use = true
+	#When true, replaces paralysis with Slowness II and Weakness II
+	nerf_paralysis = false
+	#Whether players under the swine effect drop their armor
+	swine_drops_armor = true
+	enable_fireflash_enchantment = true
+	fireflash_destroys_blocks = true
+	is_swine_entity_whitelist = true
+	enable_flying_enchantment = true
+	enable_lord_of_the_sea_enchantment = true
+	#When true, prevents FOV modifiers when stunned or wearing winged sandals
+	force_fov_reset = true
+	swine_entity_whitelist = ["minecraft:player", "minecraft:villager", "minecraft:zombie", "minecraft:zombie_villager", "minecraft:husk", "minecraft:vindicator", "minecraft:wandering_trader", "minecraft:illusioner", "minecraft:pillager", "greekfantasy:ara", "greekfantasy:dryad", "greekfantasy:naiad", "greekfantasy:satyr"]
+
+[potions]
+	#Whether the Potion of Swine can turn players into pigs
+	enable_swine_potion = true
+	#Whether the Potion of Mirroring can prevent paralysis
+	enable_mirror_potion = true
+
+[mob_abilities]
+	#Whether the Satyr Shaman can summon wolves
+	satyr_attack = true
+	#Number of seconds until the Sparti begins taking damage
+	#Range: 1 ~ 8000
+	sparti_lifespan = 300
+	#Whether the Satyr can light unlit campfires
+	satyr_lights_campfires = true
+	#Whether the Minotaur can charge and stun players
+	minotaur_attack = true
+	#Whether harvesting log blocks angers nearby dryads
+	dryad_angry_on_harvest = true
+	#The song played by the Satyr while dancing
+	satyr_song = "greekfantasy:greensleeves"
+	#Whether the Orthus can shoot fire
+	orthus_attack = true
+	#Whether the Shade can steal player XP
+	shade_attack = true
+	#Whether the Whirl is invulnerable to damage
+	whirl_invulnerable = false
+	#Whether the Gorgon can stun players by staring
+	gorgon_attack = true
+	#Whether the Fury can throw curses
+	fury_attack = true
+	#Whether the Drakaina can use special attacks based on variant
+	drakaina_attack = true
+	#Number of seconds until a summoned Whirl begins taking damage
+	#Range: 1 ~ 8000
+	whirl_lifespan = 60
+	#Whether the Siren can charm players
+	siren_attack = true
+	#Whether the Empusa can drain health
+	empusa_attack = true
+	#The distance at which dryads become angry when players harvest logs
+	#Range: 0 ~ 32
+	dryad_angry_range = 4
+	#Whether shades that spawn when a player dies can only be killed by that player
+	shade_player_only = true
+
+[mob_spawn_specials]
+	#Number of Sparti spawned by using a hydra tooth
+	#Range: 1 ~ 8
+	num_sparti_spawned = 1
+	#Whether to show the Circe boss bar
+	circe_boss_bar = true
+	#Whether a hoglin must be outside of the nether to be turned to a Giant Boar
+	giant_boar_non_nether = true
+	#Whether a shade can spawn when players die
+	shade_spawn_on_death = true
+	#Percent chance that a gorgon will be a medusa
+	#Range: 0.0 ~ 100.0
+	gorgon_medusa_chance = 0.8
+	#Percent chance that lightning striking a gorgon will turn it into a medusa
+	#Range: 0.0 ~ 100.0
+	lightning_medusa_chance = 95.0
+	#Whether to show the Cretan Minotaur boss bar
+	cretan_boss_bar = true
+	#Percent chance that opening a mysterious box spawns an Elpis
+	#Range: 0 ~ 100
+	elpis_spawn_chance = 60
+	#Percent chance that a witch will be a Circe
+	#Range: 0.0 ~ 100.0
+	circe_chance = 2.0
+	#Percent chance that a satyr will be a shaman
+	#Range: 0 ~ 100
+	satyr_shaman_chance = 24
+	#Whether to show the Medusa boss bar
+	medusa_boss_bar = true
+
+[palladium]
+	#The vertical area (in blocks) protected by Palladium blocks
+	#Range: 0 ~ 255
+	palladium_y_range = 128
+	#The radius (in chunks) of the area protected by Palladium blocks (0=same chunk only)
+	#Range: 0 ~ 3
+	palladium_chunk_range = 2
+	#The number of server ticks between Palladium updates (increase to reduce lag)
+	#Range: 2 ~ 1000
+	palladium_refresh_interval = 110
+	#Whether the Palladium can prevent monster spawns
+	palladium_enabled = true
+
+[favor]
+	#Number of ticks between decreasing favor, if enabled
+	#Range: 1 ~ 96000
+	favor_decrease_interval = 4000
+	#Whether favor tends toward zero over time
+	favor_decreases = true
+
+[mob_spawns]
+	whitelist_dimensions = true
+	dimensions = ["minecraft:overworld", "minecraft:the_nether"]
+
+	[mob_spawns.cyprian_spawn]
+		#Range: 0 ~ 1000
+		chance = 4
+		whitelist = true
+		biome_types = ["PLAINS", "CONIFEROUS"]
+
+	[mob_spawns.centaur_spawn]
+		#Range: 0 ~ 1000
+		chance = 4
+		whitelist = true
+		biome_types = ["PLAINS"]
+
+	[mob_spawns.dryad_spawn]
+		#Range: 0 ~ 1000
+		chance = 8
+		whitelist = true
+		biome_types = ["FOREST", "CONIFEROUS", "JUNGLE"]
+
+	[mob_spawns.pegasus_spawn]
+		#Range: 0 ~ 1000
+		chance = 2
+		whitelist = true
+		biome_types = ["MOUNTAIN"]
+
+	[mob_spawns.unicorn_spawn]
+		#Range: 0 ~ 1000
+		chance = 2
+		whitelist = true
+		biome_types = ["PLAINS"]
+
+	[mob_spawns.drakaina_spawn]
+		#Range: 0 ~ 1000
+		chance = 12
+		whitelist = false
+		biome_types = ["END", "WATER", "COLD", "SNOWY", "MUSHROOM"]
+
+	[mob_spawns.naiad_spawn]
+		#Range: 0 ~ 1000
+		chance = 4
+		whitelist = true
+		biome_types = ["WATER"]
+
+	[mob_spawns.gigante_spawn]
+		#Range: 0 ~ 1000
+		chance = 2
+		whitelist = true
+		biome_types = ["MOUNTAIN"]
+
+	[mob_spawns.mad_cow_spawn]
+		#Range: 0 ~ 1000
+		chance = 0.5
+		whitelist = false
+		biome_types = ["NETHER", "END", "WATER", "COLD", "SNOWY", "MUSHROOM"]
+
+	[mob_spawns.whirl_spawn]
+		#Range: 0 ~ 1000
+		chance = 2
+		whitelist = true
+		biome_types = ["OCEAN"]
+
+	[mob_spawns.gorgon_spawn]
+		#Range: 0 ~ 1000
+		chance = 4
+		whitelist = false
+		biome_types = ["NETHER", "END", "WATER", "COLD", "SNOWY", "MUSHROOM"]
+
+	[mob_spawns.harpy_spawn]
+		#Range: 0 ~ 1000
+		chance = 8
+		whitelist = true
+		biome_types = ["MESA", "SANDY"]
+
+	[mob_spawns.empusa_spawn]
+		#Range: 0 ~ 1000
+		chance = 8
+		whitelist = false
+		biome_types = ["NETHER", "END", "WATER", "COLD", "SNOWY", "MUSHROOM"]
+
+	[mob_spawns.fury_spawn]
+		#Range: 0 ~ 1000
+		chance = 2
+		whitelist = true
+		biome_types = ["NETHER"]
+
+	[mob_spawns.minotaur_spawn]
+		#Range: 0 ~ 1000
+		chance = 12
+		whitelist = false
+		biome_types = ["NETHER", "END", "WATER", "COLD", "SNOWY", "MUSHROOM"]
+
+	[mob_spawns.satyr_spawn]
+		#Range: 0 ~ 1000
+		chance = 12
+		whitelist = true
+		biome_types = ["FOREST", "CONIFEROUS", "JUNGLE"]
+
+	[mob_spawns.cyclopes_spawn]
+		#Range: 0 ~ 1000
+		chance = 2
+		whitelist = true
+		biome_types = ["MOUNTAIN"]
+
+	[mob_spawns.ara_spawn]
+		#Range: 0 ~ 1000
+		chance = 2
+		whitelist = false
+		biome_types = ["NETHER", "END", "WATER", "COLD", "SNOWY", "MUSHROOM"]
+
+	[mob_spawns.shade_spawn]
+		#Range: 0 ~ 1000
+		chance = 2
+		whitelist = false
+		biome_types = []
+
+	[mob_spawns.cerastes_spawn]
+		#Range: 0 ~ 1000
+		chance = 8
+		whitelist = true
+		biome_types = ["MESA", "SANDY"]
+
+	[mob_spawns.orthus_spawn]
+		#Range: 0 ~ 1000
+		chance = 4
+		whitelist = true
+		biome_types = ["NETHER"]
+
+	[mob_spawns.siren_spawn]
+		#Range: 0 ~ 1000
+		chance = 2
+		whitelist = true
+		biome_types = ["OCEAN"]
+
+[features]
+	#Range: 0 ~ 1000
+	olive_forest_weight = 9
+
+	[features.small_shrine]
+		#Range: 0 ~ 1000
+		chance = 4
+		whitelist = false
+		biome_types = ["NETHER", "END", "WATER", "COLD", "SNOWY", "MUSHROOM"]
+
+	[features.cyclopes_cave]
+		#Range: 0 ~ 1000
+		chance = 4
+		whitelist = true
+		biome_types = ["PLAINS"]
+
+	[features.marble]
+		#Range: 0 ~ 1000
+		chance = 200
+		whitelist = true
+		biome_types = ["OVERWORLD"]
+
+	[features.reeds]
+		#Range: 0 ~ 1000
+		chance = 200
+		whitelist = false
+		biome_types = ["NETHER", "END", "WATER", "COLD", "SNOWY", "MUSHROOM"]
+
+	[features.limestone]
+		#Range: 0 ~ 1000
+		chance = 200
+		whitelist = true
+		biome_types = ["OVERWORLD"]
+
+	[features.satyr_camp]
+		#Range: 0 ~ 1000
+		chance = 4
+		whitelist = false
+		biome_types = ["NETHER", "END", "WATER", "COLD", "SNOWY", "MUSHROOM", "MESA", "SANDY"]
+
+	[features.ara_camp]
+		#Range: 0 ~ 1000
+		chance = 2
+		whitelist = false
+		biome_types = ["NETHER", "END", "WATER", "COLD", "SNOWY", "MUSHROOM"]
+
+	[features.python_pit]
+		#Range: 0 ~ 1000
+		chance = 4
+		whitelist = true
+		biome_types = ["JUNGLE"]
+
+	[features.harpy_nest]
+		#Range: 0 ~ 1000
+		chance = 12
+		whitelist = false
+		biome_types = ["NETHER", "END", "WATER", "COLD", "SNOWY", "MUSHROOM"]
+
+	[features.reeds_swamp]
+		#Range: 0 ~ 1000
+		chance = 400
+		whitelist = true
+		biome_types = ["SWAMP"]
+
+	[features.olive_tree_single]
+		#Range: 0 ~ 1000
+		chance = 4
+		whitelist = true
+		biome_types = ["FOREST"]
+
+	[features.small_nether_shrine]
+		#Range: 0 ~ 1000
+		chance = 8
+		whitelist = true
+		biome_types = ["NETHER"]
+
