@@ -5,7 +5,7 @@
 	#If true, reaching a new milestone plays a ding sound.
 	shouldPlayMilestoneSounds = true
 	#If true, trying a new food spawns particles.
-	shouldSpawnIntermediateParticles = true
+	shouldSpawnIntermediateParticles = false
 
 [miscellaneous]
 	#If true, foods indicate in their tooltips whether or not they have been eaten.

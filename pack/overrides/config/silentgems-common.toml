@@ -62,10 +62,10 @@
 		#The number of placement attempts when generating new chunks (higher numbers = bigger patches)
 		#Note this is the number of 'attempts', not the actual number you will likely see in any given patch
 		#Range: > 0
-		placeTryCount = 40
+		placeTryCount = 16
 		#The most glowroses that can be in a single patch
 		#Range: > 0
-		maxPerPatch = 16
+		maxPerPatch = 8
 
 [returnHomeCharm]
 	#Durability of return home charms. 0 means unlimited. Charms with durability will still generate chaos when used.
@@ -270,13 +270,13 @@
 		#Number of veins of gems to spawn per chunk, by dimension. 'others' is all non-vanilla dimensions.
 		[world.generation.veinCounts]
 			#Range: 0 ~ 100
-			the_nether = 10
+			the_nether = 4
 			#Range: 0 ~ 100
-			overworld = 10
+			overworld = 4
 			#Range: 0 ~ 100
-			the_end = 10
+			the_end = 4
 			#Range: 0 ~ 100
-			others = 10
+			others = 4
 
 		[world.generation.ores]
 
@@ -298,7 +298,7 @@
 
 		[world.generation.plants]
 			#Generate wild fluffy puff plants. If disabled, you will need to add some other way to obtain fluffy puff seeds.
-			wildFluffyPuffs = true
+			wildFluffyPuffs = false
 
 		[world.generation.overworld]
 
@@ -322,13 +322,13 @@
 		[world.generation.regionSize]
 			#Region size for The Nether dimension
 			#Range: > 0
-			the_nether = 6
+			the_nether = 8
 			#Region size for the overworld only (not modded dimensions)
 			#Range: > 0
-			overworld = 10
+			overworld = 12
 			#Region size for The End dimension
 			#Range: > 0
-			the_end = 6
+			the_end = 8
 			#Region size for non-vanilla dimensions.
 			#Overworld gems will attempt to spawn, but may be unable to depending on the stone in the world.
 			#Range: > 0

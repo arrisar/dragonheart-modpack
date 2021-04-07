@@ -5,7 +5,7 @@
 	"Amphithere Flight Speed" = 1.75
 	#how long(in ticks) a siren has to wait after failing to lure in a player
 	#Range: 100 ~ 24000
-	"Siren Time Between Songs" = 2000
+	"Siren Time Between Songs" = 4000
 	#Troll attack strength
 	#Range: 1.0 ~ 10000.0
 	"Troll Attack Strength" = 10.0
@@ -21,7 +21,7 @@
 	"Spawn Pixies" = true
 	#How many blocks away can cyclopes detect sheep. Note that increasing this could cause lag.
 	#Range: 1 ~ 10000
-	"Cyclopes Sheep Search Length" = 17
+	"Cyclopes Sheep Search Length" = 16
 	#A double check to see if the game can spawn death worms. Higher number = lower chance to spawn.
 	#Range: 0 ~ 10000
 	"Death Worm Spawn Check Chance" = 4
@@ -29,15 +29,15 @@
 	#Range: 1.0 ~ 10000.0
 	"Cockatrice Health" = 32.0
 	#True if gorgon temples are allowed to spawn
-	"Spawn Gorgons" = true
+	"Spawn Gorgons" = false
 	#True if hippocampi are allowed to spawn
-	"Spawn Hippocampus" = true
+	"Spawn Hippocampus" = false
 	#Damage dealt from a successful ice breath attack. Attack Damage is scaled to by age, so a stage 5 dragon will deal 5x as much as this number
 	#Range: 0.0 ~ 10000.0
 	"Dragon Attack Damage(Ice breath)" = 2.5
 	#How high dragons can fly, in Y height.
 	#Range: > 100
-	"Max Dragon Flight Height" = 128
+	"Max Dragon Flight Height" = 100
 	#True if cockatrices are allowed to spawn
 	"Spawn Cockatrices" = true
 	#True if tamed dragons go to sleep at night.
@@ -83,10 +83,10 @@
 	#Range: 1 ~ 10000
 	"Dragon Den Gold Amount" = 4
 	#Whether to generate dragon skeletons or not
-	"Generate Dragon Skeletons" = false
+	"Generate Dragon Skeletons" = true
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
-	"Spawn Cyclops Cave Chance" = 800
+	"Spawn Cyclops Cave Chance" = 400
 	#True if myrmex colonies are allowed to spawn
 	"Spawn Myrmex" = true
 	#Default attack strength of a dragonsteel sword.
@@ -101,7 +101,7 @@
 	blacklistDimensions = ["minecraft:overworld"]
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
-	"Spawn Sea Serpent Chance" = 1600
+	"Spawn Sea Serpent Chance" = 800
 	#Default sea serpent health, this is scaled to the sea serpent's particular size
 	#Range: 1.0 ~ 10000.0
 	"Sea Serpent Base Health" = 24.0
@@ -119,7 +119,7 @@
 	#True if dragons can break blocks if they get stuck. Turn this off if your dragons randomly explode.
 	"Dragons Dig When Stuck" = true
 	#True if siren islands are allowed to spawn
-	"Spawn Sirens" = true
+	"Spawn Sirens" = false
 	#True if tamed dragons can follow the griefing rules.
 	"Tamed Dragon Griefing" = false
 	#Default deathworm attack strength, this is scaled to the worm's particular size
@@ -166,7 +166,7 @@
 	"Spawn Wandering Cyclops Chance" = 4000
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
-	"Spawn Gorgon Chance" = 800
+	"Spawn Gorgon Chance" = 8000
 	#Default durability value of dragonsteel sword.
 	#Range: > 1
 	"Dragonsteel Base Durability" = 8000
@@ -230,7 +230,7 @@
 	"Glacier Spawn Weight" = 20
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
-	"Generate Dragon Cave Chance" = 240
+	"Generate Dragon Cave Chance" = 400
 	#Dragon griefing - 2 is no griefing, 1 is breaking weak blocks, 0 is default
 	#Range: 0 ~ 2
 	"Dragon Griefing" = 1
@@ -268,16 +268,16 @@
 	blacklistedBreakBlocks = []
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
-	"Spawn Hippocampus Chance" = 120
+	"Spawn Hippocampus Chance" = 8000
 	#Amphithere spawn weight. Lower = lower chance to spawn
 	#Range: 1 ~ 10000
-	"Amphithere Spawn Weight" = 120
+	"Amphithere Spawn Weight" = 40
 	#Dragon Flute Distance - how many chunks away is the dragon flute effective?
 	#Range: 0 ~ 10000
 	"Dragon Flute Distance" = 4
 	#The percentage chance for a block to drop as an item when a dragon breaks it.
 	#Range: 0.0 ~ 1.0
-	"Dragon Block Breaking Drop Chance" = 0.10000000149011612
+	"Dragon Block Breaking Drop Chance" = 0.1
 	#Damage dealt from a successful fire breath attack. Attack Damage is scaled to by age, so a stage 5 dragon will deal 5x as much as this number
 	#Range: 0.0 ~ 10000.0
 	"Dragon Attack Damage(Fire breath)" = 2.0
@@ -297,7 +297,7 @@
 	"Dragon Cave Ore Ratio" = 48
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
-	"Spawn Stymhphalian Bird Chance" = 80
+	"Spawn Stymhphalian Bird Chance" = 4000
 	#A double check to see if the game can spawn trolls. Higher number = lower chance to spawn.
 	#Range: 0 ~ 10000
 	"Troll Spawn Check Chance" = 2
@@ -346,7 +346,7 @@
 	"Amphithere Attack Strength" = 8.0
 	#Graveyard rarity.
 	#Range: 2 ~ 10000
-	"Graveyard Chance" = 240
+	"Graveyard Chance" = 400
 	#Max dragon attack damage. Attack Damage is scaled to this
 	#Range: 1 ~ 10000
 	"Dragon Attack Damage" = 16
@@ -370,5 +370,5 @@
 	"Spawn Death Worms" = true
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
-	"Spawn Pixies Chance" = 80
+	"Spawn Pixies Chance" = 240
 

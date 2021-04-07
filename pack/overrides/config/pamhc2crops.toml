@@ -7,7 +7,7 @@
 	#Disable/enable grass blocks dropping seeds.
 	"Enable grass blocks dropping seeds" = false
 	#Disable/enable right-click harvesting of crops.
-	"Enable right-click harvesting for crops" = true
+	"Enable right-click harvesting for crops" = false
 
 ["Dimensions Settings"]
 	#Enter a dimension id to whitelist feature generation
@@ -18,17 +18,17 @@
 ["Tweak Garden Cluster Sizes"]
 	#Amount of gardens that spawn together. Higher numbers indicate larger clusters; 32 is about 3-7ish (Default: 32)
 	#Range: 1 ~ 1000000000
-	"Probability of gardens generating" = 32
+	"Probability of gardens generating" = 24
 
 ["Tweak Garden World Generation Rates"]
 	#Chance of gardens generating in the world. Higher numbers indicate a lower probability; just 4 is very rare (Default: 2)
 	#Range: 1 ~ 1000000000
-	"Probability of gardens generating" = 2
+	"Probability of gardens generating" = 4
 
 ["Tweak Garden Cluster Rates"]
 	#Chance of gardens generating in the world. Higher numbers indicate a lower probability; just 4 is very rare (Default: 2)
 	#Range: 1 ~ 1000000000
-	"Probability of gardens generating" = 2
+	"Probability of gardens generating" = 4
 
 ["Enable/Disable Garden World Generation"]
 	#Should frost gardens should generate in world

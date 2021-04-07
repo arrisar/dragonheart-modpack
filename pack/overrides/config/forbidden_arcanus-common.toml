@@ -156,7 +156,7 @@
 		only_explode_wrong_tool = false
 		#Radius of Stella Arcanum explosions (if explosions enabled) [default: 3]
 		#Range: 1 ~ 10
-		explosion_radius = 3
+		explosion_radius = 2
 
 	[blocks.runic_chiseled_polished_darkstone]
 		#Radius the Activated Runic Chiseled Polished Darkstone prevents Entities from spawning in (in Blocks) [default: 25]

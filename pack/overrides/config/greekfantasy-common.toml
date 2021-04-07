@@ -131,21 +131,21 @@
 	shade_spawn_on_death = true
 	#Percent chance that a gorgon will be a medusa
 	#Range: 0.0 ~ 100.0
-	gorgon_medusa_chance = 0.8
+	gorgon_medusa_chance = 0
 	#Percent chance that lightning striking a gorgon will turn it into a medusa
 	#Range: 0.0 ~ 100.0
-	lightning_medusa_chance = 95.0
+	lightning_medusa_chance = 0
 	#Whether to show the Cretan Minotaur boss bar
 	cretan_boss_bar = true
 	#Percent chance that opening a mysterious box spawns an Elpis
 	#Range: 0 ~ 100
-	elpis_spawn_chance = 60
+	elpis_spawn_chance = 0
 	#Percent chance that a witch will be a Circe
 	#Range: 0.0 ~ 100.0
-	circe_chance = 2.0
+	circe_chance = 0.0
 	#Percent chance that a satyr will be a shaman
 	#Range: 0 ~ 100
-	satyr_shaman_chance = 24
+	satyr_shaman_chance = 0
 	#Whether to show the Medusa boss bar
 	medusa_boss_bar = true
 
@@ -193,13 +193,13 @@
 
 	[mob_spawns.pegasus_spawn]
 		#Range: 0 ~ 1000
-		chance = 2
+		chance = 0
 		whitelist = true
 		biome_types = ["MOUNTAIN"]
 
 	[mob_spawns.unicorn_spawn]
 		#Range: 0 ~ 1000
-		chance = 2
+		chance = 0
 		whitelist = true
 		biome_types = ["PLAINS"]
 
@@ -217,7 +217,7 @@
 
 	[mob_spawns.gigante_spawn]
 		#Range: 0 ~ 1000
-		chance = 2
+		chance = 0
 		whitelist = true
 		biome_types = ["MOUNTAIN"]
 
@@ -229,7 +229,7 @@
 
 	[mob_spawns.whirl_spawn]
 		#Range: 0 ~ 1000
-		chance = 2
+		chance = 0
 		whitelist = true
 		biome_types = ["OCEAN"]
 
@@ -241,19 +241,19 @@
 
 	[mob_spawns.harpy_spawn]
 		#Range: 0 ~ 1000
-		chance = 8
+		chance = 0
 		whitelist = true
 		biome_types = ["MESA", "SANDY"]
 
 	[mob_spawns.empusa_spawn]
 		#Range: 0 ~ 1000
-		chance = 8
+		chance = 0
 		whitelist = false
 		biome_types = ["NETHER", "END", "WATER", "COLD", "SNOWY", "MUSHROOM"]
 
 	[mob_spawns.fury_spawn]
 		#Range: 0 ~ 1000
-		chance = 2
+		chance = 0
 		whitelist = true
 		biome_types = ["NETHER"]
 
@@ -265,43 +265,43 @@
 
 	[mob_spawns.satyr_spawn]
 		#Range: 0 ~ 1000
-		chance = 12
+		chance = 4
 		whitelist = true
 		biome_types = ["FOREST", "CONIFEROUS", "JUNGLE"]
 
 	[mob_spawns.cyclopes_spawn]
 		#Range: 0 ~ 1000
-		chance = 2
+		chance = 0
 		whitelist = true
 		biome_types = ["MOUNTAIN"]
 
 	[mob_spawns.ara_spawn]
 		#Range: 0 ~ 1000
-		chance = 2
+		chance = 0
 		whitelist = false
 		biome_types = ["NETHER", "END", "WATER", "COLD", "SNOWY", "MUSHROOM"]
 
 	[mob_spawns.shade_spawn]
 		#Range: 0 ~ 1000
-		chance = 2
+		chance = 0
 		whitelist = false
 		biome_types = []
 
 	[mob_spawns.cerastes_spawn]
 		#Range: 0 ~ 1000
-		chance = 8
+		chance = 4
 		whitelist = true
 		biome_types = ["MESA", "SANDY"]
 
 	[mob_spawns.orthus_spawn]
 		#Range: 0 ~ 1000
-		chance = 4
+		chance = 0
 		whitelist = true
 		biome_types = ["NETHER"]
 
 	[mob_spawns.siren_spawn]
 		#Range: 0 ~ 1000
-		chance = 2
+		chance = 0
 		whitelist = true
 		biome_types = ["OCEAN"]
 
@@ -311,73 +311,73 @@
 
 	[features.small_shrine]
 		#Range: 0 ~ 1000
-		chance = 4
+		chance = 0
 		whitelist = false
 		biome_types = ["NETHER", "END", "WATER", "COLD", "SNOWY", "MUSHROOM"]
 
 	[features.cyclopes_cave]
 		#Range: 0 ~ 1000
-		chance = 4
+		chance = 0
 		whitelist = true
 		biome_types = ["PLAINS"]
 
 	[features.marble]
 		#Range: 0 ~ 1000
-		chance = 200
-		whitelist = true
+		chance = 0
+		whitelist = false
 		biome_types = ["OVERWORLD"]
 
 	[features.reeds]
 		#Range: 0 ~ 1000
-		chance = 200
+		chance = 0
 		whitelist = false
 		biome_types = ["NETHER", "END", "WATER", "COLD", "SNOWY", "MUSHROOM"]
 
 	[features.limestone]
 		#Range: 0 ~ 1000
-		chance = 200
-		whitelist = true
+		chance = 0
+		whitelist = false
 		biome_types = ["OVERWORLD"]
 
 	[features.satyr_camp]
 		#Range: 0 ~ 1000
-		chance = 4
+		chance = 0
 		whitelist = false
 		biome_types = ["NETHER", "END", "WATER", "COLD", "SNOWY", "MUSHROOM", "MESA", "SANDY"]
 
 	[features.ara_camp]
 		#Range: 0 ~ 1000
-		chance = 2
+		chance = 0
 		whitelist = false
 		biome_types = ["NETHER", "END", "WATER", "COLD", "SNOWY", "MUSHROOM"]
 
 	[features.python_pit]
 		#Range: 0 ~ 1000
-		chance = 4
+		chance = 0
 		whitelist = true
 		biome_types = ["JUNGLE"]
 
 	[features.harpy_nest]
 		#Range: 0 ~ 1000
-		chance = 12
+		chance = 0
 		whitelist = false
 		biome_types = ["NETHER", "END", "WATER", "COLD", "SNOWY", "MUSHROOM"]
 
 	[features.reeds_swamp]
 		#Range: 0 ~ 1000
-		chance = 400
-		whitelist = true
+		chance = 0
+		whitelist = false
 		biome_types = ["SWAMP"]
 
 	[features.olive_tree_single]
 		#Range: 0 ~ 1000
-		chance = 4
-		whitelist = true
+		chance = 0
+		whitelist = false
 		biome_types = ["FOREST"]
 
 	[features.small_nether_shrine]
 		#Range: 0 ~ 1000
-		chance = 8
+		chance = 0
 		whitelist = true
 		biome_types = ["NETHER"]
 
