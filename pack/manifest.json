@@ -11,8 +11,8 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Dragonheart",
-  "version": "@project-version@",
-  "author": "@project-author@",
+  "version": "_TAG_NAME",
+  "author": "arrisar_j",
   "files": [
     {
       "projectID": 228525,

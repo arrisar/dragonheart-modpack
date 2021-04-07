@@ -1,0 +1,21 @@
+steps:
+
+- id: deploy
+  name: gcr.io/cloud-builders/docker
+  secretEnv: ["API_TOKEN"]
+  entrypoint: bash
+  args:
+  - -c
+  - |
+    sed -i '$!s/$/\\\\n/g' CHANGELOG.md;
+    tr -d '\n' < CHANGELOG.md | tee CHANGELOG.md;
+    { rm project.json && awk '{gsub("_CHANGELOG", "'"`cat CHANGELOG.md`"'", $0); print}' > project.json; } < project.json;
+    sed -i 's/_TAG_NAME/$TAG_NAME/g' project.json;
+    sed -i 's/_TAG_NAME/$TAG_NAME/g' pack/manifest.json;
+    docker run -v $$PWD:/zip --entrypoint /bin/sh kramos/alpine-zip -c 'cd /zip/pack; zip -r --exclude="*.DS_Store" /zip/dragonheart-$TAG_NAME.zip *';
+    curl -v -F "metadata=$(cat project.json)" -F "file=@dragonheart-$TAG_NAME.zip" -H "X-Api-Token: $$API_TOKEN" https://minecraft.curseforge.com/api/projects/466911/upload-file
+
+availableSecrets:
+   secretManager:
+   - versionName: projects/326213337529/secrets/DRAGONHEART_API_TOKEN/versions/1
+     env: "API_TOKEN"
