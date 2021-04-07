@@ -3,7 +3,7 @@
     "version": "1.16.5",
     "modLoaders": [
       {
-        "id": "forge-36.0.58",
+        "id": "forge-36.1.4",
         "primary": true
       }
     ]
@@ -11,8 +11,8 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Dragonheart",
-  "version": "1.3.2",
-  "author": "",
+  "version": "@project-version@",
+  "author": "@project-author@",
   "files": [
     {
       "projectID": 228525,
@@ -41,7 +41,7 @@
     },
     {
       "projectID": 439890,
-      "fileID": 3245790,
+      "fileID": 3261329,
       "required": true
     },
     {
@@ -61,12 +61,12 @@
     },
     {
       "projectID": 402231,
-      "fileID": 3190664,
+      "fileID": 3260454,
       "required": true
     },
     {
       "projectID": 351264,
-      "fileID": 3218088,
+      "fileID": 3256957,
       "required": true
     },
     {
@@ -181,12 +181,12 @@
     },
     {
       "projectID": 297039,
-      "fileID": 3255126,
+      "fileID": 3263396,
       "required": true
     },
     {
       "projectID": 220311,
-      "fileID": 3251205,
+      "fileID": 3261332,
       "required": true
     },
     {
@@ -201,7 +201,7 @@
     },
     {
       "projectID": 360203,
-      "fileID": 3253939,
+      "fileID": 3251245,
       "required": true
     },
     {
@@ -221,7 +221,7 @@
     },
     {
       "projectID": 328085,
-      "fileID": 3167531,
+      "fileID": 3261455,
       "required": true
     },
     {
@@ -261,7 +261,7 @@
     },
     {
       "projectID": 239197,
-      "fileID": 3256619,
+      "fileID": 3266791,
       "required": true
     },
     {
@@ -326,7 +326,7 @@
     },
     {
       "projectID": 438116,
-      "fileID": 3174820,
+      "fileID": 3262004,
       "required": true
     },
     {
@@ -341,7 +341,7 @@
     },
     {
       "projectID": 243121,
-      "fileID": 3254368,
+      "fileID": 3261500,
       "required": true
     },
     {
@@ -381,7 +381,7 @@
     },
     {
       "projectID": 353935,
-      "fileID": 3255550,
+      "fileID": 3266512,
       "required": true
     },
     {
@@ -416,7 +416,7 @@
     },
     {
       "projectID": 438447,
-      "fileID": 3250471,
+      "fileID": 3261646,
       "required": true
     },
     {
@@ -426,7 +426,7 @@
     },
     {
       "projectID": 239286,
-      "fileID": 3249448,
+      "fileID": 3264978,
       "required": true
     },
     {
@@ -501,7 +501,7 @@
     },
     {
       "projectID": 263420,
-      "fileID": 3249722,
+      "fileID": 3256947,
       "required": true
     },
     {
