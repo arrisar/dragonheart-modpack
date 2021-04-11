@@ -23,10 +23,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - `Pam's HarverstCraft 2`
 - `Vampirism`
 
+## [1.4.1] - 2021-04-11
+
 ### Updated
 - Many minor versions
 - Nerfed Pandora's spawn rates slightly
-
 
 ## [1.4.0] - 2021-04-07
 
