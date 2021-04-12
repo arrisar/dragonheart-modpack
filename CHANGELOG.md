@@ -23,6 +23,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 -  `Pam's HarverstCraft 2`
 -  `Vampirism`
 
+## [1.4.2] - 2021-04-12
+
+### Updated
+-  `CraftTweaker` for many changes, refer to their log (if you dare to read commit history)
+-  `Create Crafts & Additions` for minor improvements to connectors/accumulators
+-  `JEI` to remain bleeding edge
+-  `JEITweaker` for many changes, refer to CraftTweaker line
+-  `Mantle` to remain bleeding edge
+-  `Project MMO` for TileEntity BlockBreak bugfix
+-  `Silent Gear` for block textures
+
 ## [1.4.1] - 2021-04-11
 
 ### Updated
